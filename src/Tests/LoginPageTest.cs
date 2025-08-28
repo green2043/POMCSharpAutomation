@@ -1,9 +1,14 @@
 using NUnit.Framework;
 using POMCSharpAutomation.Base;
 using POMCSharpAutomation.Pages;
+using Allure.NUnit;
+
+
+
 
 namespace POMCSharpAutomation.Tests
 {
+    [AllureNUnit]
     [TestFixture]
     public class LoginPageTest : BaseTest
     {
