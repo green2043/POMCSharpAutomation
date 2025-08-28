@@ -2,9 +2,11 @@ using NUnit.Framework;
 using POMCSharpAutomation.Base;
 using POMCSharpAutomation.Pages;
 using POMCSharpAutomation.Utils;
+using Allure.NUnit;
 
 namespace POMCSharpAutomation.Tests
 {
+    [AllureNUnit]
     [TestFixture]
     public class AccountsPageTest : BaseTest
     {
